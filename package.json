@@ -7,8 +7,16 @@
       "access_heart_rate"
     ],
     "buildTargets": [
-      "higgs",
-      "meson"
-    ]
+      "mira"
+    ],
+    "appUUID": "22c90ce2-7c5c-4d03-b50e-3983823fcd48"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "^4.1.0",
+    "@fitbit/sdk-cli": "^1.7.1"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "start": "fitbit"
   }
 }
